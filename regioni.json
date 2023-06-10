@@ -1,0 +1,214 @@
+ {
+    "regioni": [
+      {
+        "nome": "Abruzzo",
+        "capoluogo": [
+          "Chieti",
+          "L'Aquila",
+          "Pescara",
+          "Teramo"
+        ] 
+      },
+      {
+        "nome": "Basilicata",
+        "capoluogo": [
+          "Matera",
+          "Potenza"
+        ] 
+      },
+      {
+        "nome": "Calabria",
+        "capoluogo": [
+          "Catanzaro",
+          "Cosenza",
+          "Crotone",
+          "Reggio Calabria",
+          "Vibo Valentia"
+        ] 
+      },
+      {
+        "nome": "Campania",
+        "capoluogo": [
+          "Avellino",
+          "Benevento",
+          "Caserta",
+          "Napoli",
+          "Salerno"
+        ] 
+      },
+      {
+        "nome": "Emilia-Romagna",
+        "capoluogo": [
+          "Bologna",
+          "Ferrara",
+          "Forlì-Cesena",
+          "Modena",
+          "Parma",
+          "Piacenza",
+          "Ravenna",
+          "Reggio Emilia",
+          "Rimini"
+        ] 
+      },
+      {
+        "nome": "Friuli-Venezia Giulia",
+        "capoluogo": [
+          "Gorizia",
+          "Pordenone",
+          "Trieste",
+          "Udine"
+        ] 
+      },
+      {
+        "nome": "Lazio",
+        "capoluogo": [
+          "Frosinone",
+          "Latina",
+          "Rieti",
+          "Roma",
+          "Viterbo"
+        ] 
+      },
+      {
+        "nome": "Liguria",
+        "capoluogo": [
+          "Genova",
+          "Imperia",
+          "La Spezia",
+          "Savona"
+        ] 
+      },
+      {
+        "nome": "Lombardia",
+        "capoluogo": [
+          "Bergamo",
+          "Brescia",
+          "Como",
+          "Cremona",
+          "Lecco",
+          "Lodi",
+          "Mantova",
+          "Milano",
+          "Monza e Brianza",
+          "Pavia",
+          "Sondrio",
+          "Varese"
+        ]
+      },
+      {
+        "nome": "Marche",
+        "capoluogo": [
+          "Ancona",
+          "Ascoli Piceno",
+          "Fermo",
+          "Macerata",
+          "Pesaro e Urbino"
+        ] 
+      },
+      {
+        "nome": "Molise",
+        "capoluogo": [
+          "Campobasso",
+          "Isernia"
+        ] 
+      },
+      {
+        "nome": "Piemonte",
+        "capoluogo": [
+          "Alessandria",
+          "Asti",
+          "Biella",
+          "Cuneo",
+          "Novara",
+          "Torino",
+          "Verbano Cusio Ossola",
+          "Vercelli"
+        ] 
+      },
+      {
+        "nome": "Puglia",
+        "capoluogo": [
+          "Bari",
+          "Barletta-Andria-Trani",
+          "Brindisi",
+          "Lecce",
+          "Foggia",
+          "Taranto"
+        ] 
+      },
+      {
+        "nome": "Sardegna",
+        "capoluogo": [
+          "Cagliari",
+          "Carbonia-Iglesias",
+          "Medio Campidano",
+          "Nuoro",
+          "Ogliastra",
+          "Olbia-Tempio",
+          "Oristano",
+          "Sassari"
+        ] 
+      },
+      {
+        "nome": "Sicilia",
+        "capoluogo": [
+          "Agrigento",
+          "Caltanissetta",
+          "Catania",
+          "Enna",
+          "Messina",
+          "Palermo",
+          "Ragusa",
+          "Siracusa",
+          "Trapani"
+        ] 
+      },
+      {
+        "nome": "Toscana",
+        "capoluogo": [
+          "Arezzo",
+          "Firenze",
+          "Grosseto",
+          "Livorno",
+          "Lucca",
+          "Massa e Carrara",
+          "Pisa",
+          "Pistoia",
+          "Prato",
+          "Siena"
+        ] 
+      },
+      {
+        "nome": "Trentino-Alto Adige",
+        "capoluogo": [
+          "Bolzano",
+          "Trento"
+        ] 
+      },
+      {
+        "nome": "Umbria",
+        "capoluogo": [
+          "Perugia",
+          "Terni"
+        ] 
+      },
+      {
+        "nome": "Valle d'Aosta",
+        "capoluogo": [
+          "Aosta"
+        ] 
+      },
+      {
+        "nome": "Veneto",
+        "capoluogo": [
+          "Belluno",
+          "Padova",
+          "Rovigo",
+          "Treviso",
+          "Venezia",
+          "Verona",
+          "Vicenza"
+        ] 
+      }
+    ]
+  }
