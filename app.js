@@ -32,20 +32,19 @@ function creaSelect(data) {
     regione.addEventListener('change', function(){
         // scelgo la regione e visualizzo in automatico le città nella seconda select
         const regioneScelta = regione.value
+        /** 
+         * salvo l'opzione con il testo "seleziona provincia"
+         * poi cancello tutte le opzioni se presenti da una
+         * scelta già effettuata poi reinserisco la prima voce di selezione
+        */
+        const seleziona = province.firstElementChild
+        while(province.hasChildNodes()) {
+             province.removeChild(province.firstChild)
+           }
+        province.appendChild(seleziona)        
+        
         for (let key of data.regioni){
             if (key.nome === regioneScelta) {
-                
-                /** 
-                 * salvo l'opzione con il testo "seleziona provincia"
-                 * poi cancello tutte le opzioni se presenti da una
-                 * scelta già effettuata poi reinserisco la prima voce di selezione
-                */
-                const seleziona = province.firstElementChild
-                while(province.hasChildNodes()) {
-                    province.removeChild(province.firstChild)
-                }
-                province.appendChild(seleziona)
-
                 /**
                  * creo tante opzioni quante sono le province
                  * presenti nella regione scelta  
