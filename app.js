@@ -10,11 +10,13 @@
  * 
  * recupero i dati delle regioni  
  * nel file json ci sono nome e capoluogo delle regioni 
- * */ 
-
-fetch("regioni.json")
-.then(response => response.json())
-.then(data => creaSelect(data))
+ * */
+async function leggiRegioni(url){
+    const response = await fetch(url)
+    const resolve = await response.json()
+    creaSelect(resolve)
+}
+leggiRegioni("regioni.json")
 
 const regione = document.querySelector('#regione')
 const province = document.querySelector('#provincia')
