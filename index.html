@@ -29,6 +29,9 @@
 .mt-5 {
     margin-top: 1.25rem;
 }
+.mt-10 {
+    margin-top: 2.5rem;
+}
 .mt-44 {
     margin-top: 11rem;
 }
@@ -66,10 +69,30 @@ option {
 
     <div class="container mx-auto">
 
-    <h3 class="text-xl font-bold mt-44">Select multipla dinamica</h3>
+    <h3 class="text-xl font-bold mt-10">Select multipla dinamica</h3>
     <p>Le select vengono popolate tramite file json. </p>
     <p>  Quando scelgo una regione dalla prima, nella seconda vengono inserite 
         in automatico le città</p>
+
+        <!-- spiegazione procedimento -->
+        <h4 class="mt-10">Dettagli</h4>
+        <p>Le select devono mantenere gli ID "regione" e "provincia" e sono costruite come segue. Le classi servono a creare un bordo arrotondato e ad aggiungere spazio fra testo e bordo ma sono modificabili</p>
+        <p>Le &lt;option&gt; vengono costruite dinamicamente. Quando seleziono una regione in automatico lo script crea 
+          tante &lt;option&gt; quanti capoluoghi ci sono nella regione selezionata leggendo i dati dal file json.
+          Se dopo aver fatto la scelta, nella select regione opto per la voce "seleziona regione" in automatico 
+          nelle province vengono azzerati i dati presenti.
+        </p>
+        <em>
+         &lt;select name="regione" id="regione" class="border w-auto p-2 rounded"&gt; <br>
+          &lt;option value=""&gt;seleziona regione&lt;/option&gt; <br>
+          &lt;/select&gt; 
+        <br><br>
+        &lt;select name="provincia" id="provincia" class="border w-auto p-2 rounded mt-5"&gt; <br>
+        &lt;option value=""&gt;seleziona provincia&lt;/option&gt; <br>
+        &lt;/select&gt; 
+        </em>
+      <!-- fine spiegazione procedimento -->
+
     <div class="flex mt-5 w-1/2 justify-between flex-col">
       <select name="regione" id="regione" class="border w-auto p-2 rounded">
         <option value="">seleziona regione</option>
@@ -78,7 +101,7 @@ option {
         <option value="">seleziona provincia</option>
       </select>
     </div>
-    
+
     </div>
 
     <script src="app.js"></script>
