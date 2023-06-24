@@ -35,7 +35,7 @@ function creaSelect(data) {
         // scelgo la regione e visualizzo in automatico le città nella seconda select
         const regioneScelta = regione.value
         /** 
-         * salvo l'opzione con il testo "seleziona provincia"
+         * salvo l'opzione con il testo "tutte le province"
          * poi cancello tutte le opzioni se presenti da una
          * scelta già effettuata poi reinserisco la prima voce di selezione
         */
@@ -52,7 +52,6 @@ function creaSelect(data) {
                  * presenti nella regione scelta  
                  */
                 for(listaProvince of key.capoluogo){
-                   // console.log(listaProvince);
                     const elencoProvince = document.createElement('option')
                     elencoProvince.setAttribute('value', listaProvince)
                     elencoProvince.textContent = listaProvince
