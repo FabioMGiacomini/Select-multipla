@@ -35,6 +35,9 @@
 .mt-44 {
     margin-top: 11rem;
 }
+.mt-2{
+  margin-top: 8px;
+}
 .flex{
   display: flex;
 }
@@ -94,13 +97,22 @@ option {
       <!-- fine spiegazione procedimento -->
 
     <div class="flex mt-5 w-1/2 justify-between flex-col">
-      <select name="regione" id="regione" class="border w-auto p-2 rounded">
-        <option value="">seleziona regione</option>
-      </select>
-      <select name="provincia" id="provincia" class="border w-auto p-2 rounded mt-5">
-        <option value="">seleziona provincia</option>
+      <label for="regione">Seleziona la regione</label>
+      <select name="regione" id="regione" class="border w-auto p-2 rounded mt-2">
+        <option value="">tutte le regioni</option>
       </select>
     </div>
+    <div class="flex mt-5 w-1/2 justify-between flex-col">
+      <label for="provincia">Seleziona la provincia</label>
+      <select name="provincia" id="provincia" class="border w-auto p-2 rounded mt-2">
+        <option value="">tutte le province</option>
+      </select>
+    </div>
+
+     
+
+  
+
 
     </div>
 
