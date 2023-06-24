@@ -25,10 +25,12 @@
           nelle province vengono azzerati i dati presenti.
         </p>
         <em>
-         &lt;select name="regione" id="regione" class="border w-auto p-2 rounded"&gt; <br>
+          &lt;label for="regione"&gt;tutte le regioni&lt;/label&gt; <br />
+         &lt;select name="regione" id="regione" class="border w-auto p-2 rounded"&gt; <br />
           &lt;option value=""&gt;seleziona regione&lt;/option&gt; <br>
           &lt;/select&gt; 
         <br><br>
+         &lt;label for="provincia"&gt;tutte le province&lt;/label&gt; <br />
         &lt;select name="provincia" id="provincia" class="border w-auto p-2 rounded mt-5"&gt; <br>
         &lt;option value=""&gt;seleziona provincia&lt;/option&gt; <br>
         &lt;/select&gt; 
